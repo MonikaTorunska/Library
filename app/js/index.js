@@ -54,7 +54,7 @@ function saveLibraryToStorage() {
 }
 
 function loadLibraryFromStorage() {
-  myLibrary = JSON.parse(localStorage.getItem('myLibraryToStore')) || [];
+  myLibrary = JSON.parse(localStorage.getItem('myLibraryToStore')) || myLibrary;
 }
 
 function clearInputs() {
