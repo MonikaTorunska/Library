@@ -1,0 +1,40 @@
+.list {
+  background-color: $nicePink;
+
+  &__order {
+    padding: 1rem;
+    margin: 1.125px;
+
+    li {
+
+      button {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem 0 1rem 0;
+        padding: 0.5rem 1rem ;
+
+        @include large {
+          display: inline;
+          margin-left: 1rem;
+
+        }
+
+        @include x-large {
+            display: inline;
+            margin-left: 1rem;
+        }
+      }
+    }
+
+  
+    
+    
+    
+  }
+  h2 {
+    text-decoration: underline;
+  }
+
+
+
+}

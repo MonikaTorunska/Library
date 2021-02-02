@@ -1,0 +1,35 @@
+.add {
+  text-align: center;
+  background-color: $nicePink ;
+
+
+  @include large {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center
+  }
+
+  @include x-large {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center
+  }
+  &__title {
+    padding: 0.3125rem;
+
+  }
+
+  &__author {
+    padding: 0.3125rem;
+  }
+
+  &__button {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  & label {
+    margin-right: 1rem;
+  }
+
+}

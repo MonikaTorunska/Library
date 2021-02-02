@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/scss/style.css">
+  <title>Library</title>
+</head>
+<body>
+  <header class="header container">
+    <h1>Books to read in 2021</h1>
+  </header>
+  <section class="add container">
+    <div class="add__title">
+      <label for="Add a title">Add a title</label>
+        <input type="text" class="add__title input" placeholder="Title">
+    </div>
+    <div class="add__author">    
+      <label for="Add an author">Add an author</label>
+          <input type="text" class="add__author input" placeholder="Author">
+    </div>
+    <div class="add__button">
+      <button class="button">Add to list</button>
+    </div>
+  </section>
+  <section class="list container">
+      <h2>List of books:</h2>
+      <ol class="list__order"></ol>
+  </section>
+  <footer class="footer container">
+    <div class="footer__copyright">
+      &copy; All rights reserved
+    </div>
+  </footer>
+  <script src="app/js/index.js"></script>
+</body>
+</html>
